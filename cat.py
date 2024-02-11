@@ -1,3 +1,7 @@
+# Hannalore Morrow
+# 2/10/2024
+# CS 361_400
+
 # Dictionary to store cat breeds and their attributes
 cat_breeds = {
     "Bengal": {"Weight": "8-18 lbs", "Personality": "Energetic, affectionate, adventurous", "Energy": "High"},
