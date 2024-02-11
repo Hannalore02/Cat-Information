@@ -41,10 +41,11 @@ def list_search_traits():
     all_traits = set()
     for breed_info in cat_breeds.values():
         for trait in breed_info["Personality"].split(', '):
-            all_traits.add(trait)
+            all_traits.add(trait.lower())  # Convert to lowercase 
     print("Searchable Traits For Cat Breeds:")
     for trait in sorted(all_traits):
-        print(trait)
+        print(trait.capitalize())  # Capitalize first letter 
+
 
 # Displays the source of information
 def display_source():
