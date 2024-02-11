@@ -88,7 +88,7 @@ def main():
         elif choice == "4":
             display_source()
         elif choice == "5":
-            print("Exiting program. Goodbye!")
+            print("Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
